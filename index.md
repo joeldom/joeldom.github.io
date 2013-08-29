@@ -1,10 +1,10 @@
 ---
 layout: page
-title:
-tagline:
+title: Greetings!
+tagline: This is my dev area.
 ---
 {% include JB/setup %}
-![This is me](http://www.joeldombek.com/images/github/jd-github-io3.jpg "This is me")
+[This is me](http://www.joeldombek.com/blog/wp-content/uploads/2012/04/doublem-1024x517a.gif "This is me")
 
 This is my Development area for [Markdown](http://daringfireball.net/projects/markdown/) and [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) platforms and languages as well as adding content, testing out best practices, building up workflows, and overall just getting a better understanding of how this platform is best used.
 
