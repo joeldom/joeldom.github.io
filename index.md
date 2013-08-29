@@ -12,6 +12,9 @@ This "site" uses the Blueberry [Muffin](http://www.richbray.me/muffin/) template
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
+##Social
+**follow me on twitter:** [@joeldombek](https://twitter.com/joeldombek)
+
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
