@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Greetings!
-tagline: This is a Markdown page
+title: Old page demo.
+tagline: This is Jekyll default.
 ---
 {% include JB/setup %}
 
-This is my Development area for [Markdown](http://daringfireball.net/projects/markdown/) and [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) platforms and languages as well as adding content, testing out best practices, building up workflows, and overall just getting a better understanding of how this platform is best used.
-
-This "site" uses the Blueberry [Muffin](http://www.richbray.me/muffin/) template. It is a design focused front-end web template using [SASS](http://sass-lang.com/) and [Jekyll](http://jekyllrb.com/).
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
