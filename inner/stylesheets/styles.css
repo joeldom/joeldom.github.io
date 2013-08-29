@@ -230,7 +230,15 @@ footer {
   header ul, header p.view {
     position:static;
   }
-  
+  p.view a{
+	  background: #929292;
+	  color: #dedede;
+	  padding: 1em 1.5em;
+	  border-radius: 2px;
+  }
+  p.view a:hover{
+	  color: white;
+  }
   pre, code {
     word-wrap:normal;
   }
