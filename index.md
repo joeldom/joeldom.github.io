@@ -17,7 +17,10 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 **fork me on github:** [github.com/joeldom](https://github.com/joeldom)
 
-## ARSENAL DEMO
+##Font Awesome
+Say Cheese <i class="icon-camera-retro"></i>
+
+## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
     
