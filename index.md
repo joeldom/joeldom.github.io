@@ -15,11 +15,14 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 ###Social
 **follow me on twitter:** [@joeldombek](https://twitter.com/joeldombek)
 
+<<<<<<< HEAD
 **fork me on github:** [github.com/joeldom](https://github.com/joeldom)
 
 ###Font Awesome
 Unable to find proper markdown formatting to get **font-awesome** to display without disrupting the formatting of the rest of the page.
 
+=======
+>>>>>>> parent of a72f01b... arsenal demo
 ## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
