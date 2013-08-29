@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Greetings!
-tagline: This is a Markdown page
+tagline: This is my dev area.
 ---
 {% include JB/setup %}
+
+![Alt text](http://www.joeldombek.com/blog/wp-content/uploads/2012/04/doublem-1024x517a.gif "Optional title")
 
 This is my Development area for [Markdown](http://daringfireball.net/projects/markdown/) and [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) platforms and languages as well as adding content, testing out best practices, building up workflows, and overall just getting a better understanding of how this platform is best used.
 
