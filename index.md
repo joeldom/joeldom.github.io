@@ -15,7 +15,9 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 ##Social
 **follow me on twitter:** [@joeldombek](https://twitter.com/joeldombek)
 
-## Update Author Attributes
+**fork me on github:** [github.com/joeldom](https://github.com/joeldom)
+
+## ARSENAL DEMO
 
 In `_config.yml` remember to specify your own data:
     
