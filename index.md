@@ -18,7 +18,7 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 **fork me on github:** [github.com/joeldom](https://github.com/joeldom)
 
 ###Font Awesome
-Say Cheese <i class="icon-camera-retro"></i>
+Unable to find proper markdown formatting to get **font-awesome** to display without disrupting the formatting of the rest of the page.
 
 ## Update Author Attributes
 
