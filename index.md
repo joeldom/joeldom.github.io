@@ -12,12 +12,12 @@ This "site" uses the Blueberry [Muffin](http://www.richbray.me/muffin/) template
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-##Social
+###Social
 **follow me on twitter:** [@joeldombek](https://twitter.com/joeldombek)
 
 **fork me on github:** [github.com/joeldom](https://github.com/joeldom)
 
-##Font Awesome
+###Font Awesome
 Say Cheese <i class="icon-camera-retro"></i>
 
 ## Update Author Attributes
