@@ -6,9 +6,6 @@ tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-## Arsenal Studios Demo
-
-
 ###Kitchen Sink
 This is a section showing how easy it is to add formatted markup to a post.
 
