@@ -1,29 +1,15 @@
 ---
 layout: page
-title:Greetings!
-tagline:
+title: Hello World!
+tagline: Supporting tagline
 ---
 {% include JB/setup %}
-![This is me](http://www.joeldombek.com/images/github/jd-github-io3.jpg "This is me")
 
-This is my Development area for [Markdown](http://daringfireball.net/projects/markdown/) and [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) platforms and languages as well as adding content, testing out best practices, building up workflows, and overall just getting a better understanding of how this platform is best used.
-
-This "site" uses the Blueberry [Muffin](http://www.richbray.me/muffin/) template. It is a design focused front-end web template using [SASS](http://sass-lang.com/) and [Jekyll](http://jekyllrb.com/).
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-###Social
----
-**follow me on twitter:** [@joeldombek](https://twitter.com/joeldombek)
-**fork me on github:** [github.com/joeldom](https://github.com/joeldom)
-
-###Font Awesome
----
-Unable to find proper markdown formatting to get **font-awesome** to display without disrupting the formatting of the rest of the page.
-
-
-### Update Author Attributes
----
+## Update Author Attributes
 
 In `_config.yml` remember to specify your own data:
     
