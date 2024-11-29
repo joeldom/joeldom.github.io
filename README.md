@@ -49,7 +49,7 @@
                             cmd
 
 -->
-<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/styleguide-banner.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://joeldom.github.io/asset/images/styleguide-banner.png" style="margin: -1px 0 0 0">
 
 The Redesign (<i>See [Style Guide](https://joeldom.github.io/style-guide/) components and layouts</i>) uses [Vue.js](https://vuejs.org/guide/introduction.html) to transform the user experience and interface, aligning with the brand's neo-industrial corporate persona. Objectives include dynamic interactivity, improved performance, and a modern UI reflecting structured grid-based designs combined with abstract art principles.
 
@@ -126,7 +126,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 <span style="color:#004161;background-color:#004161;width:20px;display:inline-block;" title="#004161">&nbsp;&squ;</span>
 <hr>
 <img style="padding:1em;background:transparent
-;display:inline-block;" width="100px" src="https://raw.githubusercontent.com/joeldom/asset/main/chip-logo.png"/>&nbsp;<img style="padding:1em;background:transparent
+;display:inline-block;" width="100px" src="https://joeldom.github.io/asset/chip-logo.png"/>&nbsp;<img style="padding:1em;background:transparent
 ;display:inline-block;" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/120px-Vue.js_Logo_2.svg.png"/>
 <img style="padding:1em;background:pink
 ;display:inline-block;" width="100px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/GAINAX.svg/1280px-GAINAX.svg.png"/>
