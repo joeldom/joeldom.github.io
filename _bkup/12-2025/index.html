@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<!-- TODO
+    [x] add <- back to top page
+    [ ] remove links in top nav
+    [x] remove redundant tiles
+    [ ] have text "write" instead of appear
+    [ ] have "Go Back" use .js onclick="history.back()"
+ -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta property="og:title" content="My Title" />
+    <meta property="og:image" content="URL to the image you want in the preview, LinkedIn recommends a 1.91:1 ratio (1200x627px)" />
+    <meta property="og:description" content="This should be a very short description" />
+    <meta name="twitter:card" content="summary || summary_large_image || player || app" />
+    <meta name="twitter:creator" content="@joeldombek" />
+
+    <title>SANDBOX 🔥 v3.6.25</title>
+
+    <!--==============================================================================================================================
+
+
+
+           @@@  @@@@@@  @@@@@@@@ @@@       @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@  @@@       @@@@@@@  @@@@@@  @@@@@@@@@@
+           @@@ @@@@@@@@ @@@@@@@@ @@@       @@@@@@@@ @@@@@@@@ @@@@@@@@@@@ @@@@@@@@ @@@@@@@@ @@@  @@@      @@@@@@@@ @@@@@@@@ @@@@@@@@@@@
+           @@! @@!  @@@ @@!      @@!       @@!  @@@ @@!  @@@ @@! @@! @@! @@!  @@@ @@!      @@!  !@@      !@@      @@!  @@@ @@! @@! @@!
+           !@! !@!  @!@ !@!      !@!       !@!  @!@ !@!  @!@ !@! !@! !@! !@   @!@ !@!      !@!  @!!      !@!      !@!  @!@ !@! !@! !@!
+           !!@ @!@  !@! @!!!:!   @!!       @!@  !@! @!@  !@! @!! !!@ @!@ @!@!@!@  @!!!:!   @!@@!@!       !@!      @!@  !@! @!! !!@ @!@
+           !!! !@!  !!! !!!!!:   !!!       !@!  !!! !@!  !!! !@!   ! !@! !!!@!!!! !!!!!:   !!@!!!        !!!      !@!  !!! !@!   ! !@!
+           !!: !!:  !!! !!:      !!:       !!:  !!! !!:  !!! !!:     !!: !!:  !!! !!:      !!: :!!       :!!      !!:  !!! !!:     !!:
+      !!:  :!: :!:  !:! :!:       :!:      :!:  !:! :!:  !:! :!:     :!: :!:  !:! :!:      :!:  !:! :!:  :!:      :!:  !:! :!:     :!:
+      ::: : :: ::::: ::  :: ::::  :: ::::   :::: :: ::::: :: :::     ::   :: ::::  :: :::: :::  ::: :::   ::: ::: ::::: :: :::     ::
+       : :::    : :  :  : :: ::  : :: : :  :: :  :   : :  :   :      :   :: : ::  : :: ::   :   ::  :::   :: :: :  : :  :   :      :
+
+                                                    ~ ~ ~ ~ ~ ~ v404 ~ ~ ~ ~ ~ ~
+
+     =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="shortlink" href="https://www.joeldombek.com/" />
+    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" type="image/x-icon">
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/64x64.png" sizes="64x64" />
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/128x128.png" sizes="128x128" />
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/76x76.png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/152x152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
+    <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
+
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/greybox/css/coma.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/sandbox.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+</head>
+
+<body id="sandbox" class="parallax light-mode">
+    <div class="wrapper">
+        <a id="top" class="anchor"></a>
+        <!-- Nav Section sans container -->
+        <div id="navbar" class="navbar navbar-fixed-top headroom" role="banner">
+            <div class="">
+                <!-- <a class="navbar-brand" href="https://www.joeldombek.com/">JOEL<strong>DOMBEK</strong></a> -->
+                <a class="navbar-brand" href="https://joeldom.github.io/redesign/">
+                    <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="14" viewBox="0 0 20 20" class="inline">
+                        <path transform="scale(-1, 1) translate(-20, 0)" d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                        </svg> Go Back</a>
+                <nav class="navbar-responsive-collapse">
+                    <ul class="nav navbar-nav pull-right" role="navigation">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Work</a>
+                            <ul class="dropdown-menu">
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/work/">All</a>
+                                </li>
+                                <li class=""><a href="#">Brand</a></li>
+                                <li class=""><a href="#">Web</a></li>
+                                <li class=""><a href="#">Interface</a></li>
+                                <li class=""><a href="#">Photography</a></li>
+                                <li class=""><a href="#">Print</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Ideas</a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="#">Quotes</a></li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/ideas/inspiration/">Inspiration</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/blog/">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
+                            <ul class="dropdown-menu">
+                                <!-- <li>
+                                  <a id="nav-search" href="#"><i class="material-icons">search</i></a>
+                              </li> -->
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/about/">About</a>
+                                </li>
+                                <li class=""><a href="#">How I Work</a></li>
+                                <li class=""><a href="#">Annual Report</a></li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/resume/">Resume</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/contact/">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="navbar-toggle">
+            <!-- <span href="#menu" class="trinav"></span> -->
+            <span href="#menu" class="ventnav">
+              <svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <path d="M7.77636 0.797607V8.53684H0.0371094L7.77636 0.797607Z" fill="#C5C5C5"/>
+              <path d="M7.77636 9.42798V17.1672H0.0371094L7.77636 9.42798Z" fill="#C5C5C5"/>
+              <path d="M7.77636 18.0583V25.7976H0.0371094L7.77636 18.0583Z" fill="#C5C5C5"/>
+              <path d="M16.4067 0.797607V8.53684H8.66748L16.4067 0.797607Z" fill="#C5C5C5"/>
+              <path d="M16.4067 9.42798V17.1672H8.66748L16.4067 9.42798Z" fill="#C5C5C5"/>
+              <path d="M16.4067 18.0583V25.7976H8.66748L16.4067 18.0583Z" fill="#C5C5C5"/>
+              <path d="M25.0371 0.797607V8.53684H17.2979L25.0371 0.797607Z" fill="#C5C5C5"/>
+              <path d="M25.0371 9.42798V17.1672H17.2979L25.0371 9.42798Z" fill="#C5C5C5"/>
+              <path d="M25.0371 18.0583V25.7976H17.2979L25.0371 18.0583Z" fill="#C5C5C5"/>
+              </svg>
+            </span>
+          </button>
+            </div>
+        </div>
+        <!-- / Nav Section -->
+    </div>
+    <!--/wrapper-->
+
+    <div id="collapse1" class="container-fluid palette-darkolive pattern-bg">
+        <div class="scroll-pane">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-4">
+                    <section class="tile-spacer">
+                        <p>&emsp;</p>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/style-guide/">
+                            <p>STYLE GUIDE / <span id="styleguide-term-container">...</span> <span class="tile-detail">v2.1.23</span><br>
+                                <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/">
+                            <p>
+                                SANDBOX / <span id="sandbox-term-container">...</span> <span class="tile-detail">v1.2.17</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20"
+                                    height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/beyond/">
+                            <p>
+                                BEYOND </span> <span class="tile-detail">v1.2.17</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/style-guide/ux/">
+                            <p>
+                                project: Verify <span class="tile-detail">v2.4.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/prompt/">
+                            <p>
+                                project: Ecco.Ai <span class="tile-detail">v2.3.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/packets/">
+                            <p>
+                                project: packet <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/beyond/">
+                            <p>
+                                project: Beyond <span class="tile-detail">issues</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/layers">
+                            <p>
+                                project: layer.EXE <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"
+                                    class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/absolute">
+                            <p>
+                                project: Absolute <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/craftcove/">
+                            <p>
+                                project: CRAFTCOVE <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"
+                                    class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/products/">
+                            <p>
+                                project: PRODUCTS <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/absolute">
+                            <p>
+                                project: Test 2 <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/absolute">
+                            <p>
+                                project: Test 3 <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">
+                    &emsp;
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/absolute">
+                            <p>
+                                project: Test 4 <span class="tile-detail">v1.1.1</span><br><svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" class="inline"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                            <!-- <img src="img/Parallax_Example.png" /> -->
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+        </div>
+        <!-- scroll-pane -->
+        <div id="data-strings" class="row">
+            <div class="col-xs-12 col-sm-4">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-sm-pull-2 col-md-8 col-md-pull-2 padding-left-large padding-right-large">
+                <br class="gap" />
+                <figure class="quote">
+                    <span class="h2" style="text-align: center;display: block;">
+                        Projects
+                    </span>
+                </figure>
+                <div id="term-container" class="strings" style="text-align: center;">Loading...</div>
+                <button style="display: block; margin: auto;" id="pauseButton">Pause</button>
+                <br class="gap" />
+            </div>
+            <div class="col-xs-12 col-sm-4">&emsp;</div>
+        </div>
+    </div>
+
+    <div class="footer-para">
+        <div class="container">
+            <div class="row">
+                <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                    <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
+                    <span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
+                    <div class="row">
+                        <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
+                            <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
+                        </a>
+                        <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                        <div class="col-xs-12 col-sm-6">
+                            <p style="padding: 0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
+                                    target="_blank">Resume</a>.</p>
+                            <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+                                <li><a href="https://joeldom.github.io/">Home</a></li>
+                                <li><a href="https://joeldom.github.io/work">Work</a></li>
+                                <li><a href="https://joeldom.github.io/redesign/sandbox/writing/">Writing</a></li>
+                                <li><a href="https://joeldom.github.io/ideas">Ideas</a></li>
+                                <li><a href="https://joeldom.github.io/quotes">Quotes</a></li>
+                                <li><a href="https://joeldom.github.io/about">About</a></li>
+                                <li><a href="https://joeldom.github.io/resume">Resume</a></li>
+                                <!-- <li><a href="https://joeldom.github.io/contact">Contact</a></li> -->
+                                <!-- <li><a href="https://joeldom.github.io/search">Search</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-4 col-xs-12 hidden-xs">
+                                    <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                    <ul class="list-unstyled">
+                                        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                        <li>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">psychology</i><span class="hidden-xs"> About me</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/style-guide/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Style Guide</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/sandbox/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Sandbox</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 col-xs-12 hidden-xs">
+                                    <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                    <ul class="list-unstyled">
+                                        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                        <li>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Instagram</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter"></i><span class="hidden-xs"> Twitter</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-4 col-xs-12">
+                                    <p class="text-right">
+                                        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2025</small><small><br class="hidden-sm">V8.06.10.25<br class="hidden-xs"><span class="hidden-xs">©2025</span></small>
+                                    </p>
+                                    <br /><br /><br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- footer-para -->
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
+    <script src="https://joeldom.github.io/redesign/greybox/js/contact.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
+    <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
+    <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
+</body>
+
+</html>
+<div class="col-sm-4 col-xs-12 hidden-xs">
+    <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+    <ul class="list-unstyled">
+        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+        <li>
+            <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Instagram</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter"></i><span class="hidden-xs"> Twitter</span></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+        </li>
+        <li>
+            <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+        </li>
+    </ul>
+</div>
+
+<div class="col-sm-4 col-xs-12">
+    <p class="text-right">
+        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2025</small><small><br class="hidden-sm">V8.0610.25<br class="hidden-xs"><span class="hidden-xs">©2025</span></small>
+    </p>
+    <br /><br /><br />
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+<!-- footer-para -->
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
+<script src="https://joeldom.github.io/redesign/greybox/js/contact.js"></script>
+<script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
+<script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+<script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
+<script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
+<script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
+</body>
+
+</html>
